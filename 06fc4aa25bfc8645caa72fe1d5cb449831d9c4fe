@@ -1,0 +1,280 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ad6cce8_8a79d1e8",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "What\u0027s the purpose of this macros?, i don\u0027t see them used anywhere. Note for dlrn builds we rely in upstream_version macro",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 59
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d384fd85_1d029da6",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "For consistency, may you move Version before Release?",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc3772f4_fd5b2990",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "I guess this should be ASL 2.0",
+      "range": {
+        "startLine": 11,
+        "startChar": 16,
+        "endLine": 11,
+        "endChar": 20
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d1d4669_5b1e9018",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "Although Source0 is modified by dlrn in RDO trunk builds, please set this to:\n\nhttps://github.com/directord/%{pypi_name}/archive/%{upstream_version}.tar.gz#/%{name}-%{upstream_version}.tar.gz\n\nSo that it\u0027s ready when we branch and build it for CBS builds.",
+      "range": {
+        "startLine": 14,
+        "startChar": 16,
+        "endLine": 14,
+        "endChar": 32
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d41d3829_2508cd39",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "we are not running syntax tests at packaging, so i guess flake8 is actually not required?",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dd4da2ed_6dade9f9",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "done, i guess you can remove this note.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "866543da_11d36a54",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "\u003c\u003d 1.26.0?, we\u0027ve received a request to update it to 1.41.1 so i\u0027m not sure what\u0027s the required version.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "35c86cbf_80da260a",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "Both the server and client parts require to run as root? can\u0027t be executed as a non-root user?",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a891558_f26c7075",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "Could directord be required as a library by other packages?, if so, it may be good to create a separated subpackage python3-directord with just the modules and there should have standard python provides.",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67abe74a_ba1bdf93",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "subpackages server and client shouldn\u0027t require main directord package?",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f14743b8_75d58622",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "duplicated with line 90",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "72c53555_f64a21da",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-07T10:59:46Z",
+      "side": 1,
+      "message": "Duplicated with line 89.",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
