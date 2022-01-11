@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "66f11bdb_e85e6a19",
+        "filename": "directord.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-11T16:46:06Z",
+      "side": 1,
+      "message": "I think it\u0027s missing python3-requests as mandatory Requires. Anyway it\u0027s being added by automatic dependencies so it could be fix later.",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 1
+      },
+      "revId": "930174cc806117e953318a77a2d7a4b96ce55b81",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
