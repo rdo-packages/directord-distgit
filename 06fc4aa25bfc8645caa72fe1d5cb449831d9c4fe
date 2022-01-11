@@ -237,6 +237,30 @@
     },
     {
       "key": {
+        "uuid": "8c51ef27_4324253c",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 96
+      },
+      "writtenOn": "2022-01-11T13:15:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d41d3829_2508cd39",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dd4da2ed_6dade9f9",
         "filename": "directord.spec",
         "patchSetId": 4
@@ -343,6 +367,30 @@
       "side": 1,
       "message": "That means we need to coordinate update of grpc and directord somehow? we are working on it right now. BTW, you will use directord bot for CS8 and CS9 or only CS9?",
       "parentUuid": "3c267970_d7b9a7fe",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 1
+      },
+      "revId": "06fc4aa25bfc8645caa72fe1d5cb449831d9c4fe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dde7e669_730743d5",
+        "filename": "directord.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 96
+      },
+      "writtenOn": "2022-01-11T13:15:36Z",
+      "side": 1,
+      "message": "We need both for now, and I would assume both going forward for the time being until we know for sure where directord will be adopted.",
+      "parentUuid": "86103815_ea50c90c",
       "range": {
         "startLine": 45,
         "startChar": 0,
