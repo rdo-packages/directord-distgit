@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b4575b3e_ad639dba",
+        "filename": "directord.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-11T09:07:36Z",
+      "side": 1,
+      "message": "I\u0027d do:\n\nRequires:     %{pypi_name} \u003d %{version}-%{release}\n\nto make sure we pull the right version of directord when installing server or client",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 1
+      },
+      "revId": "a2ae8d8d7afd039b2c17181ff03de06ede6d26f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "252224bd_73431604",
+        "filename": "directord.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-11T09:07:36Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 1
+      },
+      "revId": "a2ae8d8d7afd039b2c17181ff03de06ede6d26f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
