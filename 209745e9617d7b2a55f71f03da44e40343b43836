@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6efa2586_2ec6ca2c",
+        "filename": "directord.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-12T15:35:28Z",
+      "side": 1,
+      "message": "you added the systemd-rpm-macros but didn\u0027t include macros for %post, %preun and %postun:\n\nhttps://docs.fedoraproject.org/en-US/packaging-guidelines/Scriptlets/#_scriptlets",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 1
+      },
+      "revId": "209745e9617d7b2a55f71f03da44e40343b43836",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
