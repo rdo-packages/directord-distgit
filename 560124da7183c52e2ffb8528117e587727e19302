@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d3a413be_2d9e7c13",
+        "filename": "directord.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-12T16:01:32Z",
+      "side": 1,
+      "message": "Should be %post server, and similar to preun and postun.",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 1
+      },
+      "revId": "560124da7183c52e2ffb8528117e587727e19302",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3670e506_190db4dc",
+        "filename": "directord.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-12T16:01:32Z",
+      "side": 1,
+      "message": "%post client, etc..",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 1
+      },
+      "revId": "560124da7183c52e2ffb8528117e587727e19302",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
