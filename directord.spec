@@ -24,7 +24,6 @@ BuildRequires:  python3-tabulate
 BuildRequires:  python3-tenacity
 BuildRequires:  python3-oslo-messaging
 BuildRequires:  systemd-rpm-macros
-BuildRequires:  python3-ssh-python
 
 Requires:       python3-jinja2
 Requires:       python3-pyyaml
